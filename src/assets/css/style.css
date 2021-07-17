@@ -1,0 +1,116 @@
+.facebook {
+  margin: 32px auto 0;
+  width: 600px;
+}
+.facebook .header {
+  font-size: 1.5rem;
+}
+.facebook .comment-box {
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.comment-list {
+  padding: 16px;
+  background-color: #eee;
+}
+.comment-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.comment-list__item:last-child {
+  margin-bottom: 0;
+}
+.comment-list__item .comment-info {
+  display: flex;
+}
+.comment-list__item .comment-info .comment-img {
+  width: 60px;
+  height: 60px;
+}
+.comment-list__item .comment-info .comment-img img {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.comment-list__item .comment-info .comment-content {
+  margin-left: 16px;
+}
+.comment-list__item .comment-info .comment-content .name {
+  color: red;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.comment-list__item .comment-info .comment-content .content {
+  line-height: 1.5;
+}
+
+.form-control {
+  padding: 16px;
+}
+.form-control .form-row {
+  margin-bottom: 16px;
+}
+.form-control .form-row:last-child {
+  margin-bottom: 0;
+}
+.form-control .form-row .form-label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.form-control .form-row .full-row {
+  width: 100%;
+}
+.form-control .form-row input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.form-control .form-row input:focus {
+  border-color: #28a745;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: no-drop;
+}
+.btn + .btn {
+  margin-left: 16px;
+}
+.btn-small {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+.btn-small + .btn-small {
+  margin-left: 8px;
+}
+.btn.btn-success {
+  color: white;
+  background-color: #28a745;
+}
+.btn.btn-primary {
+  color: white;
+  background-color: #007bff;
+}
+.btn.btn-danger {
+  color: white;
+  background-color: #dc3545;
+}
+.btn.btn-warning {
+  color: white;
+  background-color: #ffc107;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: no-drop;
+    }
+
+    & + & {
+        margin-left: 16px;
+    }
+
+    &-small {
+        padding: 8px 16px;
+
+        font-size: 0.9rem;
+
+        & + & {
+            margin-left: 8px;
+        }
+    }
+
+    &.btn-success {
+        color: white;
+        background-color: #28a745;
+    }
+
+    &.btn-primary {
+        color: white;
+        background-color: #007bff;
+    }
+
+    &.btn-danger {
+        color: white;
+        background-color: #dc3545;
+    }
+
+    &.btn-warning {
+        color: white;
+        background-color: #ffc107;
+    }
+}

@@ -1,0 +1,57 @@
+.bet-list {
+	&__item {
+		margin-bottom: 16px;
+
+		.image {
+			img {
+				width: 100%;
+			}
+		}
+		.control-box {
+			border-radius: 8px;
+			padding: 12px;
+
+			background-color: #28a745;
+
+			text-align: center;
+
+			.amount {
+				display: inline-block;
+				min-width: 60px;
+				padding: 0 8px;
+
+				color: gold;
+
+				font-size: 1.5rem;
+				font-weight: 700;
+				text-align: center;
+			}
+
+			button {
+				$btn-size: 35px;
+
+				display: inline-block;
+				border: none;
+				border-radius: 3px;
+
+				width: $btn-size;
+				height: $btn-size;
+
+				color: white;
+				background-color: crimson;
+
+				line-height: $btn-size;
+				text-align: center;
+				font-size: 1.2rem;
+				font-weight: 600;
+
+				user-select: none;
+				cursor: pointer;
+
+				&:active {
+					transform: scale(1.25);
+				}
+			}
+		}
+	}
+}
